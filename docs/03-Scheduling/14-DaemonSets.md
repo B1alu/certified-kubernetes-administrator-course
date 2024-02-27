@@ -2,6 +2,7 @@
   - Take me to [Video Tutorial](https://kodekloud.com/topic/daemonsets/)
 
 In this section, we will take a look at DaemonSets.
+NOTE:-in interview explain, that daemon set used to deploy kube-proxy, cni weave, monitoring tools etc... dont forget to mention that kube-proxy and weave peer. 
 
 #### DaemonSets are like replicasets, as it helps in to deploy multiple instances of pod. But it runs one copy of your pod on each node in your cluster.
   

@@ -7,6 +7,7 @@ In this section, we will take a look at "CNI Weave in the Kubernetes Cluster"
 ## Deploy Weave
 
 - Installing [weave net](https://www.weave.works/docs/net/latest/kubernetes/kube-addon/) onto the Kubernetes cluster with a single command.
+- NOTE:-weave is deployed as daemon set, as we need weave peer or weave agent to be in every node.
 
 ```
 $ kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"

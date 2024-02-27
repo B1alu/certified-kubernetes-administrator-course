@@ -3,6 +3,7 @@
   - Take me to [Lecture](https://kodekloud.com/topic/cni-in-kubernetes/)
 
 In this section, we will take a look at **Container Networking Interface (CNI) in Kubernetes**
+CNI plugins r configured in kublet.service in each node of the cluster
 
 ## Configuring CNI
 

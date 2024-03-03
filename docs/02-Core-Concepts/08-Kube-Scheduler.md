@@ -5,6 +5,7 @@ In this section, we will take a look at kube-scheduler.
 
 #### kube-scheduler is responsible for scheduling pods on nodes.  
 - The kube-scheduler is only responsible for deciding which pod goes on which node. It doesn't actually place the pod on the nodes, that's the job of the **`kubelet`**.
+- kube scheduler consider few factors like, filter nodes and rank nodes and also we use taints n toleration, node affinity/anti affinity, and pod affinity and also note that we cannot place the pods on control plane because by default master node is tainted
 
   ![kube-scheduler1](../../images/kube-scheduler1.PNG)
   

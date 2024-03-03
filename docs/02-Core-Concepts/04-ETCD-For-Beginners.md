@@ -9,6 +9,7 @@
 
  ## What is a ETCD?
      - ETCD is a distributed reliable key-value store that is simple, secure & Fast.
+     - The etcd stores all cluster information, such as its current state, desired state, configuration of resources, and runtime data.
 
 ## What is a Key-Value Store
    - Traditionally, databases have been in tabular format, you must have heared about SQL or Relational databases. They store data in rows and columns

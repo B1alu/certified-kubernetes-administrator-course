@@ -27,6 +27,11 @@ In this section, we will take a look at taints and tolerations.
   - **`NoSchedule`**
   - **`PreferNoSchedule`**
   - **`NoExecute`**
+ 
+  - Taint effects define what will happen to pods if they don’t tolerate the taints. The three taint effects are:
+  - NoSchedule: A strong effect where the system lets the pods already scheduled in the nodes run, but enforces taints from the subsequent pods.
+  - PreferNoSchedule: A soft effect where the system will try to avoid placing a pod that does not tolerate the taint on the node.
+  - NoExecute: A strong effect where all previously scheduled pods are evicted, and new pods that don’t tolerate the taint will not be scheduled.
   
   ![tn](../../images/tn.PNG)
   

@@ -4,6 +4,11 @@
 
 In this section, we will take a look at **Pre-requisite of the Cluster Networking**
 
+- Highly-coupled container-to-container communications: this is solved by Pods and localhost communications.
+- Pod-to-Pod communications: this is the primary focus of this document.
+- Pod-to-Service communications: this is covered by Services.
+- External-to-Service communications: this is also covered by Services.
+
 - Set the unique hostname.
 - Get the IP addr of the system (master and worker node).
 - Check the Ports.

@@ -11,6 +11,7 @@ A Container Runtime, in the networking context, is a daemon on a node configured
 - you need to install the CNI plugins necessary into /opt/cni/bin
 - By default, your CNI configurations are read from /etc/cni/net.d
 - The network model is implemented by the container runtime on each node. The most common container runtimes use Container Network Interface (CNI) plugins to manage their network and security capabilities. Many different CNI plugins exist from many different vendors
+- as soon as we create pods, the cri will talk to cni plugin to implement network for that pod.
 
 
 ![net-7](../../images/net7.PNG)

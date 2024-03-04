@@ -20,6 +20,7 @@ Kubernetes IP address ranges
 - The kube-apiserver is configured to assign IP addresses to Services.
 - The kubelet or the cloud-controller-manager is configured to assign IP addresses to Nodes.
 
+![image](https://github.com/B1alu/certified-kubernetes-administrator-course/assets/153971929/be38dac1-68bf-4f7d-960f-2dbc55dd2b4c)
 
 ## IP and Hostname
 

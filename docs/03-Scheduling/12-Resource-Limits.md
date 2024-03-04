@@ -70,6 +70,9 @@ In this section we will take a look at Resource Limits
   
 ## Exceed Limits
 - what happens when a pod tries to exceed resources beyond its limits?
+- If a container exceeds its memory request and the node that it runs on becomes short of memory overall, it is likely that the Pod the container belongs to will be evicted.
+
+- A container might or might not be allowed to exceed its CPU limit for extended periods of time. However, container runtimes don't terminate Pods or containers for excessive CPU usage.
 
    ![el](../../images/el.PNG)
    

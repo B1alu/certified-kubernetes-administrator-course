@@ -3,6 +3,7 @@
   - Take me to [Lecture](https://kodekloud.com/topic/prerequisite-coredns/)
 
 In this section, we will take a look at **CoreDNS**
+- CoreDNS is an important component of Kubernetes because it provides a reliable and scalable way to perform DNS-based service discovery and name resolution within a Kubernetes cluster. This is essential for enabling communication between pods and services in a complex and dynamic containerized environment
 
 ## Installation of CoreDNS
 

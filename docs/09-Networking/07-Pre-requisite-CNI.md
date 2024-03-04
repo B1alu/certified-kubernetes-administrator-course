@@ -4,6 +4,11 @@
 
 In this section, we will take a look at **Pre-requisite Container Network Interface(CNI)**
 
+- Kubernetes 1.29 supports Container Network Interface (CNI) plugins for cluster networking.
+- A CNI plugin is required to implement the Kubernetes network model.
+- Installation
+A Container Runtime, in the networking context, is a daemon on a node configured to provide CRI Services for kubelet. In particular, the Container Runtime must be configured to load the CNI plugins required to implement the Kubernetes network model
+
 
 ![net-7](../../images/net7.PNG)
 

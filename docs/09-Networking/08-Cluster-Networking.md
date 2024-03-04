@@ -13,6 +13,14 @@ In this section, we will take a look at **Pre-requisite of the Cluster Networkin
 - Get the IP addr of the system (master and worker node).
 - Check the Ports.
 
+Kubernetes IP address ranges
+- Kubernetes clusters require to allocate non-overlapping IP addresses for Pods, Services and Nodes, from a range of available addresses configured in the following components:
+
+- The network plugin is configured to assign IP addresses to Pods.
+- The kube-apiserver is configured to assign IP addresses to Services.
+- The kubelet or the cloud-controller-manager is configured to assign IP addresses to Nodes.
+
+
 ## IP and Hostname
 
 - To view the hostname

@@ -8,6 +8,8 @@ In this section, we will take a look at **Pre-requisite Container Network Interf
 - A CNI plugin is required to implement the Kubernetes network model.
 - Installation
 A Container Runtime, in the networking context, is a daemon on a node configured to provide CRI Services for kubelet. In particular, the Container Runtime must be configured to load the CNI plugins required to implement the Kubernetes network model
+- you need to install the CNI plugins necessary into /opt/cni/bin
+- By default, your CNI configurations are read from /etc/cni/net.d
 
 
 ![net-7](../../images/net7.PNG)

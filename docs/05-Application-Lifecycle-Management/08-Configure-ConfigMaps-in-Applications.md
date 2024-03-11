@@ -2,6 +2,7 @@
   - Take me to [Video Tutorial](https://kodekloud.com/topic/configure-configmaps-in-applications/)
   
 In this section, we will take a look at configuring configmaps in applications
+when we have lots of pod defn file then its difficult to define env variables in each, so we define env variable sepaerately like config maps
 
 ## ConfigMaps
 - There are 2 phases involved in configuring ConfigMaps. 

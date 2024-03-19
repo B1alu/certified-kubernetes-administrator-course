@@ -4,6 +4,11 @@ In this section we will look at the differences between Docker and ContainerD
 
 
 So you’re going to come across Docker and `containerd` many times. Going forward, when you read older blogs or documentation pages , you’ll see Docker mentioned along with Kubernetes and when you read newer blogs you’ll see `containerd` and you’ll wonder what the difference is between the two. And there are a few CLI tools like `ctr`, `crictl` or `nerdctl` and you’ll wonder what are these CLI tools and which one should you be using, so that’s’ what I’m going to explain.
+Runc is a container runtime that provides a low-level interface for creating and running containers according to the Open Container Initiative (OCI) specification. It is designed to be a lightweight and secure runtime that can be easily integrated with higher-level container orchestration systems like Kubernetes.
+
+Containerd, on the other hand, is a higher-level container runtime that provides a complete environment for managing containers, including image management, container execution, and container lifecycle management. It is designed to be a more robust and extensible runtime that can be used in a variety of container orchestration systems.
+In other words runc provides the basic functionality for creating and running containers, while containerd provides a more complete environment for managing and orchestrating container workloads.
+The container engine uses a container runtime, also called a lower-level container runtime(OCI layer=runc), to run and manage the components required to deploy and operate containers.
 
 ![](../../images/02-03-01.png)
 

@@ -2,6 +2,12 @@
   - Take me to [Video Tutorial](https://kodekloud.com/topic/rolling-updates-and-rollbacks/)
   
 In this section, we will take a look at rolling updates and rollback in a deployment
+Rolling Update Deployment. The rolling deployment is the default deployment strategy in Kubernetes. It replaces pods, one by one, of the previous version of our application with pods of the new version without any cluster downtime.
+When using the RollingUpdate strategy, there are two more options that let us fine-tune the update process:
+
+maxSurge: The number of pods that can be created above the desired amount of pods during an update. This can be an absolute number or percentage of the replicas count. The default is 25%.
+
+maxUnavailable: The number of pods that can be unavailable during the update process. This can be an absolute number or a percentage of the replicas count; the default is 25%.
 
 ## Rollout and Versioning in a Deployment
 
